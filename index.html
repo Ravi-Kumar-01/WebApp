@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="index.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    This is landing page of calculator
+    <div>
+        <form onclick=window.open(sum.html)>
+            <label for="">Enter 1st number</label>
+            <input type="txt" class="one" >
+            <br/>
+            <label>Enter 2nd number</label>
+            <input type="text" class="two" >
+            <br/>
+            <button class="btn" onsubmit ="calculate()">Calculate</button>
+        </form>
+    </div>
+    <div>
+
+    </div>
+
+    <script>
+
+    function calculate(){
+        const a = document.getElementsByClassName("one");
+        const b = document.getElementsByClassName("two");
+        var sum = a+b;
+
+       return sum;
+    }
+
+    </script>
+</body>
+</html>
